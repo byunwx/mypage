@@ -1,0 +1,136 @@
+body{
+  background-color: #eee;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: auto;
+}
+header{
+  background-color: #ffffff;
+  margin:auto;
+  background: solid;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  border: solid;
+  border: #cccccc;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1{
+  color:white;
+  background-color: #4aaaa5;
+  float: left;
+  padding: 5px;
+  margin-left: 40px;
+}
+header h2{
+  float: right;
+  color:gray;
+  margin-right: 85px;
+  font-size: 20px;
+}
+header h2 a{
+  font-size: 18px;
+  color: gray;
+}
+#leftBox{
+  display: inline-block;
+  background: solid;
+  background-color: #ffffff;
+  float: left;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 650px;
+  margin-bottom: 80px;
+  padding: 20px;
+  border: solid;
+  border-color: #dddddd;
+
+}
+#mypic{
+  width: 200px;
+  height:200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.teal{
+  color: #4aaaa5;
+}
+#leftBox p{
+  line-height: 40px;
+}
+#rightBox{
+  display: inline-block;
+  background: solid;
+  background-color: #ffffff;
+  float: left;
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 270px;
+  padding: 20px;
+  border: solid;
+  border-color: #dddddd;
+}
+
+footer{
+  background-color: #666666;
+  margin-top: -150px;
+  margin-left: -5%;
+  height: 100px;
+  background: solid;
+  position: relative;
+  display: inline-block;
+  width: 110%;
+  text-align: center;
+  color: #ffffff;
+  border: solid 5px;
+  border-color: #4aaaa5;
+
+}
+#rightBox a img{
+  width: 50px;
+  height: 50px;
+}
+/* contact page only*/
+#leftBox input{
+  width: 90%;
+}
+#leftBox textarea{
+  width: 90%;
+  height: 200px;
+}
+/* portfolio page only */
+#leftBox h3 {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+.project {
+  border: 1px solid #466995;
+  margin: 20px;
+  display:inline-block;
+  height: 150px;
+  width: 200px;
+}
+#leftBox h3 img{
+  position:relative;
+  width: 200px;
+  height: 150px;
+
+}
+#coffee{
+  background-image: url('../images/coffee.jpeg');
+}
+#floor{
+  background-image: url('../images/floor.jpeg');
+}
+#gwu{
+  background-image: url('../images/gwu.jpg');
+}
