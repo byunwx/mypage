@@ -101,12 +101,57 @@ footer{
   border-top: solid 5px;
   border-color: #4aaaa5;
   z-index: 1;
-
 }
-#rightBox a img{
+#rightBox p{
+  margin: 0 2px;
+  padding: 0;
+  font-size: 1px;
+}
+.smallbox{
   width: 50px;
   height: 50px;
+  float: left;
 }
+.hover:hover {
+  color: #DBE9EE;
+}
+.box1{
+  background-image: url("../images/icons/github.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box2{
+  background-image: url("../images/icons/linkicon.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box3{
+  background-image: url("../images/icons/stackicon.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box1:hover{
+  background-image: url("../images/icons/githubicon.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box2:hover{
+  background-image: url("../images/icons/link-icon.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box3:hover{
+  background-image: url("../images/icons/stack.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 /* contact page only*/
 form input, form textarea{
   font-size: 15px;
@@ -156,9 +201,27 @@ button{
 #coffee{
   background-image: url('../images/coffee.jpeg');
 }
+#coffee:hover{
+  background-image: url('../images/starbucks.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 #floor{
   background-image: url('../images/floor.jpeg');
 }
+#floor:hover{
+  background-image: url('../images/wood.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 #gwu{
   background-image: url('../images/gwu.jpg');
+}
+#gwu:hover{
+  background-image: url('../images/gwimg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
