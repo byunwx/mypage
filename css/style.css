@@ -37,7 +37,7 @@ header h2 a{
 
 .middle{
   position: relative;
-  margin: 10px auto 200px auto;
+  margin: 10px auto 100px auto;
   /* border: solid;
   border-color: black; */
   z-index: 100;
@@ -91,18 +91,17 @@ header h2 a{
 footer{
   background-color: #666666;
   /* margin-top: -150px; */
-  margin-left: -5%;
   height: 100px;
   background: solid;
-  position: fixed;
+  position: relative;
   display: block;
-  width: 110%;
+  width: 100%;
   text-align: center;
   color: #ffffff;
-  border: solid 5px;
+  border-top: solid 5px;
   border-color: #4aaaa5;
-  bottom: -5%;
   z-index: 1;
+
 }
 #rightBox a img{
   width: 50px;
