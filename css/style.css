@@ -62,6 +62,7 @@ header h2{
 header h2 a{
   font-size: 18px;
   color: gray;
+  text-decoration: none;
 }
 
 .middle{
