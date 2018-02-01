@@ -187,8 +187,8 @@ form input, form textarea{
   line-height: 80%;
 }
 form h4{
-  line-height: 10px;
-  margin: 10px;
+  line-height: 1px;
+  /* margin: 10px; */
 }
 #leftBox input{
   width: 90%;
