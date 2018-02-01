@@ -143,6 +143,12 @@ header h2 a{
 }
 .hover:hover {
   color: #DBE9EE;
+  animation-name: colorchange;
+  animation-duration: 3s;
+}
+@keyframes colorchange {
+  from{color: #DBE9EE;}
+  to{color: #4aaaa5;}
 }
 .box1{
   background-image: url("../images/icons/github.png");
