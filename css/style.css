@@ -27,6 +27,10 @@ html, body{
   border-color: #4aaaa5;
   z-index: 1;
 }
+footer p{
+  margin-top: 70px;
+  font-size: 10px;
+}
 body{
   background-color: #eee;
   color: #777777;
@@ -45,19 +49,25 @@ header{
   border: #cccccc;
   font-family: 'Georgia', Times, Times New Roman, serif;
   z-index: 1;
+  font-weight: bold;
+}
+h2, h3{
+  font-weight: bold;
 }
 h1{
+  font-size: 20px;
   color:white;
   background-color: #4aaaa5;
   float: left;
   padding: 40px 10px;
-  margin:0px 0px 0px 40px;
+  margin:0px 0px 0px 85px;
 }
 header h2{
   float: right;
   color:gray;
   margin-right: 85px;
   font-size: 20px;
+  margin-top: 40px;
 }
 header h2 a{
   font-size: 18px;
@@ -196,7 +206,7 @@ form input, form textarea{
   line-height: 80%;
 }
 form h4{
-  line-height: 1px;
+  line-height: 25px;
   /* margin: 10px; */
 }
 #leftBox input{
