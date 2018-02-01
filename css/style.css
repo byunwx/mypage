@@ -142,7 +142,7 @@ header h2 a{
   float: left;
 }
 .hover:hover {
-  color: #DBE9EE;
+  color: #4aaaa5;
   animation-name: colorchange;
   animation-duration: 3s;
 }
@@ -209,6 +209,14 @@ button{
   width: 100px;
   height: 30px;
   font-size: 15px;
+}
+button:hover{
+  animation-name: backgroundchange;
+  animation-duration: 3s;
+}
+@keyframes backgroundchange {
+  from{background-color: #DBE9EE;}
+  to{background-color: #4aaaa5;}
 }
 /* portfolio page only */
 #leftBox h3 {
