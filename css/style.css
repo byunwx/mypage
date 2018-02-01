@@ -1,3 +1,31 @@
+html, body{
+  height: 100%;
+}
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+.page-wrap:after{
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap::after{
+  height: 100px;
+}
+.site-footer{
+  background-color: #666666;
+  /* margin-top: -150px; */
+  height: 100px;
+  background: solid;
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  border-top: solid 5px;
+  border-color: #4aaaa5;
+  z-index: 1;
+}
 body{
   background-color: #eee;
   color: #777777;
@@ -88,9 +116,8 @@ header h2 a{
   border-color: #dddddd;
 }
 
-footer{
+/* footer{
   background-color: #666666;
-  /* margin-top: -150px; */
   height: 100px;
   background: solid;
   position: relative;
@@ -101,7 +128,7 @@ footer{
   border-top: solid 5px;
   border-color: #4aaaa5;
   z-index: 1;
-}
+} */
 #rightBox p{
   margin: 0 2px;
   padding: 0;
