@@ -140,6 +140,9 @@ header h2 a{
   width: 50px;
   height: 50px;
   float: left;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .hover:hover {
   color: #4aaaa5;
@@ -152,39 +155,39 @@ header h2 a{
 }
 .box1{
   background-image: url("../images/icons/github.png");
-  background-size: cover;
+  /* background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .box2{
   background-image: url("../images/icons/linkicon.png");
-  background-size: cover;
+  /* background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .box3{
   background-image: url("../images/icons/stackicon.png");
-  background-size: cover;
+  /* background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .box1:hover{
   background-image: url("../images/icons/githubicon.png");
-  background-size: cover;
+  /* background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .box2:hover{
   background-image: url("../images/icons/link-icon.jpg");
-  background-size: cover;
+  /* background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .box3:hover{
   background-image: url("../images/icons/stack.png");
-  background-size: cover;
+  /* background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 /* contact page only*/
